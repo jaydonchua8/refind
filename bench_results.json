@@ -1,0 +1,26 @@
+{
+ "1": {
+  "n": 2520,
+  "xpath": 1408,
+  "css": 314,
+  "refind": 2200,
+  "refind_wrong": 0,
+  "refind_refused": 320
+ },
+ "2": {
+  "n": 2520,
+  "xpath": 777,
+  "css": 255,
+  "refind": 2189,
+  "refind_wrong": 0,
+  "refind_refused": 331
+ },
+ "3": {
+  "n": 2520,
+  "xpath": 361,
+  "css": 211,
+  "refind": 2164,
+  "refind_wrong": 0,
+  "refind_refused": 356
+ }
+}
