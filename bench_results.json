@@ -1,26 +1,548 @@
 {
- "1": {
-  "n": 2520,
-  "xpath": 1408,
-  "css": 314,
-  "refind": 2200,
-  "refind_wrong": 0,
-  "refind_refused": 320
+ "held_out": {
+  "elements": {
+   "recorded id": {
+    "1": {
+     "absent": 86,
+     "absent_refused": 85,
+     "absent_wrong": 1,
+     "correct": 0,
+     "present": 2462,
+     "refused": 2452,
+     "wrong": 10
+    },
+    "2": {
+     "absent": 164,
+     "absent_refused": 164,
+     "absent_wrong": 0,
+     "correct": 0,
+     "present": 2384,
+     "refused": 2378,
+     "wrong": 6
+    },
+    "3": {
+     "absent": 241,
+     "absent_refused": 241,
+     "absent_wrong": 0,
+     "correct": 0,
+     "present": 2307,
+     "refused": 2295,
+     "wrong": 12
+    },
+    "all": {
+     "absent": 491,
+     "absent_refused": 490,
+     "absent_wrong": 1,
+     "correct": 0,
+     "present": 7153,
+     "refused": 7125,
+     "wrong": 28
+    }
+   },
+   "refind": {
+    "1": {
+     "absent": 86,
+     "absent_refused": 86,
+     "absent_wrong": 0,
+     "correct": 2417,
+     "present": 2462,
+     "refused": 45,
+     "wrong": 0
+    },
+    "2": {
+     "absent": 164,
+     "absent_refused": 163,
+     "absent_wrong": 1,
+     "correct": 2280,
+     "present": 2384,
+     "refused": 104,
+     "wrong": 0
+    },
+    "3": {
+     "absent": 241,
+     "absent_refused": 240,
+     "absent_wrong": 1,
+     "correct": 2109,
+     "present": 2307,
+     "refused": 198,
+     "wrong": 0
+    },
+    "all": {
+     "absent": 491,
+     "absent_refused": 489,
+     "absent_wrong": 2,
+     "correct": 6806,
+     "present": 7153,
+     "refused": 347,
+     "wrong": 0
+    }
+   },
+   "role+name, first": {
+    "1": {
+     "absent": 86,
+     "absent_refused": 48,
+     "absent_wrong": 38,
+     "correct": 1619,
+     "present": 2462,
+     "refused": 85,
+     "wrong": 758
+    },
+    "2": {
+     "absent": 164,
+     "absent_refused": 98,
+     "absent_wrong": 66,
+     "correct": 1521,
+     "present": 2384,
+     "refused": 132,
+     "wrong": 731
+    },
+    "3": {
+     "absent": 241,
+     "absent_refused": 156,
+     "absent_wrong": 85,
+     "correct": 1417,
+     "present": 2307,
+     "refused": 228,
+     "wrong": 662
+    },
+    "all": {
+     "absent": 491,
+     "absent_refused": 302,
+     "absent_wrong": 189,
+     "correct": 4557,
+     "present": 7153,
+     "refused": 445,
+     "wrong": 2151
+    }
+   },
+   "role+name, nth": {
+    "1": {
+     "absent": 86,
+     "absent_refused": 61,
+     "absent_wrong": 25,
+     "correct": 2198,
+     "present": 2462,
+     "refused": 110,
+     "wrong": 154
+    },
+    "2": {
+     "absent": 164,
+     "absent_refused": 119,
+     "absent_wrong": 45,
+     "correct": 1963,
+     "present": 2384,
+     "refused": 175,
+     "wrong": 246
+    },
+    "3": {
+     "absent": 241,
+     "absent_refused": 175,
+     "absent_wrong": 66,
+     "correct": 1663,
+     "present": 2307,
+     "refused": 276,
+     "wrong": 368
+    },
+    "all": {
+     "absent": 491,
+     "absent_refused": 355,
+     "absent_wrong": 136,
+     "correct": 5824,
+     "present": 7153,
+     "refused": 561,
+     "wrong": 768
+    }
+   },
+   "role+name, only if unique": {
+    "1": {
+     "absent": 86,
+     "absent_refused": 79,
+     "absent_wrong": 7,
+     "correct": 1318,
+     "present": 2462,
+     "refused": 1144,
+     "wrong": 0
+    },
+    "2": {
+     "absent": 164,
+     "absent_refused": 142,
+     "absent_wrong": 22,
+     "correct": 1240,
+     "present": 2384,
+     "refused": 1144,
+     "wrong": 0
+    },
+    "3": {
+     "absent": 241,
+     "absent_refused": 209,
+     "absent_wrong": 32,
+     "correct": 1154,
+     "present": 2307,
+     "refused": 1153,
+     "wrong": 0
+    },
+    "all": {
+     "absent": 491,
+     "absent_refused": 430,
+     "absent_wrong": 61,
+     "correct": 3712,
+     "present": 7153,
+     "refused": 3441,
+     "wrong": 0
+    }
+   }
+  },
+  "tasks": {
+   "refind": {
+    "actions": 1860,
+    "actions_replayed_right": 1073,
+    "completed_right": 87,
+    "feasible": 132,
+    "feasible_completed": 87,
+    "infeasible": 108,
+    "infeasible_wrong": 1,
+    "runs": 240,
+    "stop_reasons": {
+     "context_lost": 1,
+     "not_found": 64,
+     "renamed_unsure": 66,
+     "state_differs": 21
+    },
+    "stopped_clean": 152,
+    "wrong_action": 1,
+    "wrong_then_completed": 0
+   },
+   "role+name, first": {
+    "actions": 1860,
+    "actions_replayed_right": 264,
+    "completed_right": 7,
+    "feasible": 132,
+    "feasible_completed": 7,
+    "infeasible": 108,
+    "infeasible_wrong": 44,
+    "runs": 240,
+    "stop_reasons": {
+     "not_found": 84,
+     "state_differs": 18
+    },
+    "stopped_clean": 102,
+    "wrong_action": 131,
+    "wrong_then_completed": 59
+   },
+   "role+name, nth": {
+    "actions": 1860,
+    "actions_replayed_right": 585,
+    "completed_right": 35,
+    "feasible": 132,
+    "feasible_completed": 35,
+    "infeasible": 108,
+    "infeasible_wrong": 27,
+    "runs": 240,
+    "stop_reasons": {
+     "not_found": 109,
+     "state_differs": 21
+    },
+    "stopped_clean": 130,
+    "wrong_action": 75,
+    "wrong_then_completed": 27
+   },
+   "role+name, only if unique": {
+    "actions": 1860,
+    "actions_replayed_right": 315,
+    "completed_right": 0,
+    "feasible": 132,
+    "feasible_completed": 0,
+    "infeasible": 108,
+    "infeasible_wrong": 2,
+    "runs": 240,
+    "stop_reasons": {
+     "ambiguous": 220,
+     "state_differs": 18
+    },
+    "stopped_clean": 238,
+    "wrong_action": 2,
+    "wrong_then_completed": 0
+   }
+  }
  },
- "2": {
-  "n": 2520,
-  "xpath": 777,
-  "css": 255,
-  "refind": 2189,
-  "refind_wrong": 0,
-  "refind_refused": 331
+ "note": "SYNTHETIC sites from sim.py. held_out sites, drift mix and seeds were not used for tuning.",
+ "params": {
+  "ctx_min": 0.5,
+  "margin": 0.05,
+  "rename_ctx": 0.6,
+  "rename_name": 0.2,
+  "solo_ctx": 0.05,
+  "threshold": 0.7,
+  "w_ctx": 5,
+  "w_head": 0.5,
+  "w_name": 2,
+  "w_ord": 0.25
  },
- "3": {
-  "n": 2520,
-  "xpath": 361,
-  "css": 211,
-  "refind": 2164,
-  "refind_wrong": 0,
-  "refind_refused": 356
+ "seeds_per_split": 20,
+ "train": {
+  "elements": {
+   "recorded id": {
+    "1": {
+     "absent": 84,
+     "absent_refused": 84,
+     "absent_wrong": 0,
+     "correct": 0,
+     "present": 3300,
+     "refused": 3297,
+     "wrong": 3
+    },
+    "2": {
+     "absent": 186,
+     "absent_refused": 186,
+     "absent_wrong": 0,
+     "correct": 1,
+     "present": 3198,
+     "refused": 3180,
+     "wrong": 17
+    },
+    "3": {
+     "absent": 274,
+     "absent_refused": 270,
+     "absent_wrong": 4,
+     "correct": 2,
+     "present": 3110,
+     "refused": 3095,
+     "wrong": 13
+    },
+    "all": {
+     "absent": 544,
+     "absent_refused": 540,
+     "absent_wrong": 4,
+     "correct": 3,
+     "present": 9608,
+     "refused": 9572,
+     "wrong": 33
+    }
+   },
+   "refind": {
+    "1": {
+     "absent": 84,
+     "absent_refused": 84,
+     "absent_wrong": 0,
+     "correct": 3267,
+     "present": 3300,
+     "refused": 33,
+     "wrong": 0
+    },
+    "2": {
+     "absent": 186,
+     "absent_refused": 186,
+     "absent_wrong": 0,
+     "correct": 3147,
+     "present": 3198,
+     "refused": 50,
+     "wrong": 1
+    },
+    "3": {
+     "absent": 274,
+     "absent_refused": 271,
+     "absent_wrong": 3,
+     "correct": 2986,
+     "present": 3110,
+     "refused": 124,
+     "wrong": 0
+    },
+    "all": {
+     "absent": 544,
+     "absent_refused": 541,
+     "absent_wrong": 3,
+     "correct": 9400,
+     "present": 9608,
+     "refused": 207,
+     "wrong": 1
+    }
+   },
+   "role+name, first": {
+    "1": {
+     "absent": 84,
+     "absent_refused": 48,
+     "absent_wrong": 36,
+     "correct": 2249,
+     "present": 3300,
+     "refused": 117,
+     "wrong": 934
+    },
+    "2": {
+     "absent": 186,
+     "absent_refused": 110,
+     "absent_wrong": 76,
+     "correct": 2105,
+     "present": 3198,
+     "refused": 168,
+     "wrong": 925
+    },
+    "3": {
+     "absent": 274,
+     "absent_refused": 168,
+     "absent_wrong": 106,
+     "correct": 1993,
+     "present": 3110,
+     "refused": 260,
+     "wrong": 857
+    },
+    "all": {
+     "absent": 544,
+     "absent_refused": 326,
+     "absent_wrong": 218,
+     "correct": 6347,
+     "present": 9608,
+     "refused": 545,
+     "wrong": 2716
+    }
+   },
+   "role+name, nth": {
+    "1": {
+     "absent": 84,
+     "absent_refused": 67,
+     "absent_wrong": 17,
+     "correct": 2907,
+     "present": 3300,
+     "refused": 134,
+     "wrong": 259
+    },
+    "2": {
+     "absent": 186,
+     "absent_refused": 134,
+     "absent_wrong": 52,
+     "correct": 2557,
+     "present": 3198,
+     "refused": 217,
+     "wrong": 424
+    },
+    "3": {
+     "absent": 274,
+     "absent_refused": 192,
+     "absent_wrong": 82,
+     "correct": 2280,
+     "present": 3110,
+     "refused": 310,
+     "wrong": 520
+    },
+    "all": {
+     "absent": 544,
+     "absent_refused": 393,
+     "absent_wrong": 151,
+     "correct": 7744,
+     "present": 9608,
+     "refused": 661,
+     "wrong": 1203
+    }
+   },
+   "role+name, only if unique": {
+    "1": {
+     "absent": 84,
+     "absent_refused": 70,
+     "absent_wrong": 14,
+     "correct": 1875,
+     "present": 3300,
+     "refused": 1425,
+     "wrong": 0
+    },
+    "2": {
+     "absent": 186,
+     "absent_refused": 155,
+     "absent_wrong": 31,
+     "correct": 1763,
+     "present": 3198,
+     "refused": 1435,
+     "wrong": 0
+    },
+    "3": {
+     "absent": 274,
+     "absent_refused": 258,
+     "absent_wrong": 16,
+     "correct": 1652,
+     "present": 3110,
+     "refused": 1458,
+     "wrong": 0
+    },
+    "all": {
+     "absent": 544,
+     "absent_refused": 483,
+     "absent_wrong": 61,
+     "correct": 5290,
+     "present": 9608,
+     "refused": 4318,
+     "wrong": 0
+    }
+   }
+  },
+  "tasks": {
+   "refind": {
+    "actions": 1500,
+    "actions_replayed_right": 1091,
+    "completed_right": 131,
+    "feasible": 156,
+    "feasible_completed": 131,
+    "infeasible": 84,
+    "infeasible_wrong": 1,
+    "runs": 240,
+    "stop_reasons": {
+     "context_lost": 2,
+     "not_found": 49,
+     "renamed_unsure": 39,
+     "state_differs": 18
+    },
+    "stopped_clean": 108,
+    "wrong_action": 1,
+    "wrong_then_completed": 0
+   },
+   "role+name, first": {
+    "actions": 1500,
+    "actions_replayed_right": 238,
+    "completed_right": 9,
+    "feasible": 156,
+    "feasible_completed": 9,
+    "infeasible": 84,
+    "infeasible_wrong": 48,
+    "runs": 240,
+    "stop_reasons": {
+     "not_found": 70,
+     "state_differs": 10
+    },
+    "stopped_clean": 80,
+    "wrong_action": 151,
+    "wrong_then_completed": 72
+   },
+   "role+name, nth": {
+    "actions": 1500,
+    "actions_replayed_right": 574,
+    "completed_right": 45,
+    "feasible": 156,
+    "feasible_completed": 45,
+    "infeasible": 84,
+    "infeasible_wrong": 22,
+    "runs": 240,
+    "stop_reasons": {
+     "not_found": 108,
+     "state_differs": 16
+    },
+    "stopped_clean": 124,
+    "wrong_action": 71,
+    "wrong_then_completed": 33
+   },
+   "role+name, only if unique": {
+    "actions": 1500,
+    "actions_replayed_right": 413,
+    "completed_right": 1,
+    "feasible": 156,
+    "feasible_completed": 1,
+    "infeasible": 84,
+    "infeasible_wrong": 5,
+    "runs": 240,
+    "stop_reasons": {
+     "ambiguous": 226,
+     "state_differs": 8
+    },
+    "stopped_clean": 234,
+    "wrong_action": 5,
+    "wrong_then_completed": 1
+   }
+  }
  }
 }
